@@ -1,1 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+}
 
+header {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid silver;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #0a0a0a;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #333;
+}
+
+nav a:hover {
+  background: white;
+  color: black;
+}
+
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+.card {
+  background: #111;
+  margin: 15px auto;
+  padding: 15px;
+  width: 80%;
+  border: 1px solid #333;
+}
